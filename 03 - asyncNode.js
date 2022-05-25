@@ -12,7 +12,7 @@ async function asyncFunc(req, res) {
     let response = await http.get('http://localhost:3000');
     
     if (response.err) console.log('Error');
-    else console.log('Great success!');
+    else console.log('Async function executed!');
 };
 
 function func2() {
