@@ -2,13 +2,13 @@
 // This way we can create encapsulation which is one of the core principles of OOP
 
 function privateState() {
-    const privateVariable = 'TOP SECRET';
+    const privateVariable = 'TOP SECRET'
     
     return function accessPrivateState() {
-        return privateVariable;
-    };
-};
+        return privateVariable
+    }
+}
 
-const x = privateState();
+const x = privateState()
 
-console.log(x());
+console.log(x())
